@@ -1,0 +1,5045 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "group": 5,
+            "label": "Three",
+            "properties": {
+                "sentence_index": "1",
+                "type": "Person",
+                "offset": 1
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 1,
+            "group": 0,
+            "label": "die",
+            "properties": {
+                "sentence_index": "1",
+                "type": "Event",
+                "offset": 2
+            },
+            "relation_num": {
+                "COREF": 2,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 11
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 2,
+            "group": 1,
+            "label": "bank",
+            "properties": {
+                "sentence_index": "1",
+                "type": "Location",
+                "offset": 4
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#FB7E81"
+        },
+        {
+            "id": 3,
+            "group": 0,
+            "label": "riots",
+            "properties": {
+                "sentence_index": "1",
+                "type": "Event",
+                "offset": 7
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 20
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 4,
+            "group": 6,
+            "label": "5 / 5 / 2010 1 : 41 PM",
+            "properties": {
+                "sentence_index": "2",
+                "type": "Time",
+                "offset": 2
+            },
+            "relation_num": {},
+            "color": "#7BE141"
+        },
+        {
+            "id": 5,
+            "group": 0,
+            "label": "Riots",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 1
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 4,
+                "INTER_CAUSE": 17
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 6,
+            "group": 2,
+            "label": "measures",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Object",
+                "offset": 6
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 7,
+            "group": 5,
+            "label": "workers",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Person",
+                "offset": 10
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 8,
+            "group": 0,
+            "label": "dead",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 11
+            },
+            "relation_num": {
+                "COREF": 2,
+                "INTRA_CAUSE": 4,
+                "INTER_CAUSE": 8
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 9,
+            "group": 0,
+            "label": "engulfed",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 13
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 10,
+            "group": 1,
+            "label": "the streets of Athens",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Location",
+                "offset": 14
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 11,
+            "group": 6,
+            "label": "Wednesday",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Time",
+                "offset": 19
+            },
+            "relation_num": {},
+            "color": "#7BE141"
+        },
+        {
+            "id": 12,
+            "group": 5,
+            "label": "protesters",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Person",
+                "offset": 23
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 13,
+            "group": 0,
+            "label": "tried",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 24
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 14,
+            "group": 0,
+            "label": "storm",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 26
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 4,
+                "INTER_CAUSE": 17
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 15,
+            "group": 1,
+            "label": "parliament",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Location",
+                "offset": 27
+            },
+            "relation_num": {
+                "COREF": 1
+            },
+            "color": "#FB7E81"
+        },
+        {
+            "id": 16,
+            "group": 0,
+            "label": "hurled",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 29
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 4,
+                "INTER_CAUSE": 17
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 17,
+            "group": 2,
+            "label": "Molotov cocktails",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Object",
+                "offset": 30
+            },
+            "relation_num": {
+                "COREF": 1
+            },
+            "color": "#AD85E4"
+        },
+        {
+            "id": 18,
+            "group": 3,
+            "label": "police",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Organization",
+                "offset": 33
+            },
+            "relation_num": {
+                "COREF": 3
+            },
+            "color": "#FFA807"
+        },
+        {
+            "id": 19,
+            "group": 0,
+            "label": "torched",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Event",
+                "offset": 35
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 4,
+                "INTER_CAUSE": 17
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 20,
+            "group": 2,
+            "label": "buildings",
+            "properties": {
+                "sentence_index": "3",
+                "type": "Object",
+                "offset": 36
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 21,
+            "group": 3,
+            "label": "Police",
+            "properties": {
+                "sentence_index": "4",
+                "type": "Organization",
+                "offset": 1
+            },
+            "relation_num": {
+                "COREF": 3
+            },
+            "color": "#FFA807"
+        },
+        {
+            "id": 22,
+            "group": 0,
+            "label": "responded",
+            "properties": {
+                "sentence_index": "4",
+                "type": "Event",
+                "offset": 2
+            },
+            "relation_num": {
+                "INTER_CAUSE": 10
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 23,
+            "group": 2,
+            "label": "tear gas",
+            "properties": {
+                "sentence_index": "4",
+                "type": "Object",
+                "offset": 6
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 24,
+            "group": 5,
+            "label": "people",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Person",
+                "offset": 5
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 25,
+            "group": 0,
+            "label": "took to",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 6
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 26,
+            "group": 1,
+            "label": "the streets",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Location",
+                "offset": 8
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 27,
+            "group": 0,
+            "label": "strike",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 13
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 2,
+                "INTER_CAUSE": 19
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 28,
+            "group": 0,
+            "label": "protest",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 15
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 2,
+                "INTER_CAUSE": 19
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 29,
+            "group": 2,
+            "label": "taxes",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Object",
+                "offset": 17
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 30,
+            "group": 0,
+            "label": "cuts",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 21
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 3,
+                "INTER_CAUSE": 8
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 31,
+            "group": 0,
+            "label": "demanded",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 22
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 32,
+            "group": 3,
+            "label": "International Monetary Fund",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Organization",
+                "offset": 25
+            },
+            "relation_num": {},
+            "color": "#FFA807"
+        },
+        {
+            "id": 33,
+            "group": 4,
+            "label": "nations",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Other",
+                "offset": 31
+            },
+            "relation_num": {},
+            "color": "#EB7DF4"
+        },
+        {
+            "id": 34,
+            "group": 4,
+            "label": "Greece",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Other",
+                "offset": 35
+            },
+            "relation_num": {},
+            "color": "#EB7DF4"
+        },
+        {
+            "id": 35,
+            "group": 0,
+            "label": "gets",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 36
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 36,
+            "group": 2,
+            "label": "loan package",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Object",
+                "offset": 45
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 37,
+            "group": 0,
+            "label": "keep",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 48
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 38,
+            "group": 0,
+            "label": "defaulting",
+            "properties": {
+                "sentence_index": "5",
+                "type": "Event",
+                "offset": 51
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 39,
+            "group": 5,
+            "label": "workers",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Person",
+                "offset": 4
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 40,
+            "group": 5,
+            "label": "man",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Person",
+                "offset": 6
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 41,
+            "group": 5,
+            "label": "women",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Person",
+                "offset": 9
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 42,
+            "group": 0,
+            "label": "died",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Event",
+                "offset": 10
+            },
+            "relation_num": {
+                "COREF": 2,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 11
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 43,
+            "group": 5,
+            "label": "demonstrators",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Person",
+                "offset": 12
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 44,
+            "group": 0,
+            "label": "set on fire",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Event",
+                "offset": 13
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 12
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 45,
+            "group": 1,
+            "label": "bank",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Location",
+                "offset": 15
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#FB7E81"
+        },
+        {
+            "id": 46,
+            "group": 1,
+            "label": "the main demonstration route in central Athens",
+            "properties": {
+                "sentence_index": "6",
+                "type": "Location",
+                "offset": 19
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 47,
+            "group": 1,
+            "label": "On the streets of Athens",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Location",
+                "offset": 1
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 48,
+            "group": 5,
+            "label": "demonstrators",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Person",
+                "offset": 7
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 49,
+            "group": 0,
+            "label": "chanted",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Event",
+                "offset": 8
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 50,
+            "group": 4,
+            "label": "\" Thieves",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Other",
+                "offset": 9
+            },
+            "relation_num": {},
+            "color": "#EB7DF4"
+        },
+        {
+            "id": 51,
+            "group": 4,
+            "label": "thieves",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Other",
+                "offset": 12
+            },
+            "relation_num": {},
+            "color": "#EB7DF4"
+        },
+        {
+            "id": 52,
+            "group": 5,
+            "label": "they",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Person",
+                "offset": 16
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 53,
+            "group": 0,
+            "label": "attempted",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Event",
+                "offset": 17
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 54,
+            "group": 0,
+            "label": "break through",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Event",
+                "offset": 19
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 20
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 55,
+            "group": 2,
+            "label": "cordon",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Object",
+                "offset": 24
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 56,
+            "group": 0,
+            "label": "guarding",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Event",
+                "offset": 25
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 57,
+            "group": 1,
+            "label": "Parliament",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Location",
+                "offset": 26
+            },
+            "relation_num": {
+                "COREF": 1
+            },
+            "color": "#FB7E81"
+        },
+        {
+            "id": 58,
+            "group": 0,
+            "label": "chased",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Event",
+                "offset": 28
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 20
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 59,
+            "group": 5,
+            "label": "guards",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Person",
+                "offset": 30
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 60,
+            "group": 1,
+            "label": "the Tomb of the Unknown Soldier in front of the building",
+            "properties": {
+                "sentence_index": "24",
+                "type": "Location",
+                "offset": 33
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 61,
+            "group": 2,
+            "label": "Tear gas",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Object",
+                "offset": 1
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 62,
+            "group": 0,
+            "label": "drifted",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Event",
+                "offset": 3
+            },
+            "relation_num": {
+                "INTER_CAUSE": 10
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 63,
+            "group": 1,
+            "label": "the city center",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Location",
+                "offset": 5
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 64,
+            "group": 5,
+            "label": "rioters",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Person",
+                "offset": 9
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 65,
+            "group": 0,
+            "label": "hurled",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Event",
+                "offset": 10
+            },
+            "relation_num": {
+                "INTER_CAUSE": 10
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 66,
+            "group": 2,
+            "label": "stones",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Object",
+                "offset": 12
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 67,
+            "group": 2,
+            "label": "bombs",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Object",
+                "offset": 15
+            },
+            "relation_num": {
+                "COREF": 1
+            },
+            "color": "#AD85E4"
+        },
+        {
+            "id": 68,
+            "group": 3,
+            "label": "police",
+            "properties": {
+                "sentence_index": "25",
+                "type": "Organization",
+                "offset": 17
+            },
+            "relation_num": {
+                "COREF": 3
+            },
+            "color": "#FFA807"
+        },
+        {
+            "id": 69,
+            "group": 5,
+            "label": "Firefighters",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Person",
+                "offset": 1
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 70,
+            "group": 0,
+            "label": "extinguished",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Event",
+                "offset": 2
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 71,
+            "group": 0,
+            "label": "blazes",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Event",
+                "offset": 3
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 10
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 72,
+            "group": 1,
+            "label": "buildings",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Location",
+                "offset": 7
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 73,
+            "group": 1,
+            "label": "the bank",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Location",
+                "offset": 8
+            },
+            "relation_num": {
+                "COREF": 2
+            },
+            "color": "#FB7E81"
+        },
+        {
+            "id": 74,
+            "group": 1,
+            "label": "a branch of the Finance Ministry",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Location",
+                "offset": 11
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 75,
+            "group": 5,
+            "label": "protesters",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Person",
+                "offset": 18
+            },
+            "relation_num": {
+                "COREF": 5
+            },
+            "color": "#97C2FC"
+        },
+        {
+            "id": 76,
+            "group": 0,
+            "label": "set up",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Event",
+                "offset": 19
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 77,
+            "group": 0,
+            "label": "burning",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Event",
+                "offset": 21
+            },
+            "relation_num": {
+                "INTER_CAUSE": 10
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 78,
+            "group": 2,
+            "label": "barricades",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Object",
+                "offset": 22
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 79,
+            "group": 0,
+            "label": "torched",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Event",
+                "offset": 24
+            },
+            "relation_num": {
+                "INTER_CAUSE": 13
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 80,
+            "group": 2,
+            "label": "cars",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Object",
+                "offset": 25
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 81,
+            "group": 2,
+            "label": "truck",
+            "properties": {
+                "sentence_index": "26",
+                "type": "Object",
+                "offset": 29
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        },
+        {
+            "id": 82,
+            "group": 3,
+            "label": "Police",
+            "properties": {
+                "sentence_index": "27",
+                "type": "Organization",
+                "offset": 1
+            },
+            "relation_num": {
+                "COREF": 3
+            },
+            "color": "#FFA807"
+        },
+        {
+            "id": 83,
+            "group": 0,
+            "label": "said",
+            "properties": {
+                "sentence_index": "27",
+                "type": "Event",
+                "offset": 2
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 84,
+            "group": 5,
+            "label": "people",
+            "properties": {
+                "sentence_index": "27",
+                "type": "Person",
+                "offset": 4
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 85,
+            "group": 0,
+            "label": "injured",
+            "properties": {
+                "sentence_index": "27",
+                "type": "Event",
+                "offset": 6
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 9
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 86,
+            "group": 0,
+            "label": "riots",
+            "properties": {
+                "sentence_index": "27",
+                "type": "Event",
+                "offset": 9
+            },
+            "relation_num": {
+                "COREF": 9,
+                "INTRA_CAUSE": 1,
+                "INTER_CAUSE": 20
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 87,
+            "group": 0,
+            "label": "Violence",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Event",
+                "offset": 1
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 88,
+            "group": 0,
+            "label": "broke out",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Event",
+                "offset": 3
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 89,
+            "group": 1,
+            "label": "the northern city of Thessaloniki",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Location",
+                "offset": 6
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 90,
+            "group": 5,
+            "label": "people",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Person",
+                "offset": 17
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 91,
+            "group": 0,
+            "label": "marched",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Event",
+                "offset": 18
+            },
+            "relation_num": {},
+            "color": "#FFFF00"
+        },
+        {
+            "id": 92,
+            "group": 1,
+            "label": "the city center",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Location",
+                "offset": 20
+            },
+            "relation_num": {},
+            "color": "#FB7E81"
+        },
+        {
+            "id": 93,
+            "group": 5,
+            "label": "youths",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Person",
+                "offset": 25
+            },
+            "relation_num": {},
+            "color": "#97C2FC"
+        },
+        {
+            "id": 94,
+            "group": 0,
+            "label": "smashed",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Event",
+                "offset": 26
+            },
+            "relation_num": {
+                "INTRA_CAUSE": 1
+            },
+            "color": "#FFFF00"
+        },
+        {
+            "id": 95,
+            "group": 2,
+            "label": "windows",
+            "properties": {
+                "sentence_index": "31",
+                "type": "Object",
+                "offset": 28
+            },
+            "relation_num": {},
+            "color": "#AD85E4"
+        }
+    ],
+    "edges": [
+        {
+            "id": 0,
+            "from": 28,
+            "to": 30,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 1,
+            "from": 16,
+            "to": 19,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 2,
+            "from": 5,
+            "to": 19,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 3,
+            "from": 27,
+            "to": 30,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 4,
+            "from": 8,
+            "to": 19,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 5,
+            "from": 30,
+            "to": 38,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 6,
+            "from": 70,
+            "to": 71,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 26,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 7,
+            "from": 27,
+            "to": 28,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 8,
+            "from": 8,
+            "to": 14,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 9,
+            "from": 5,
+            "to": 16,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 10,
+            "from": 5,
+            "to": 8,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 11,
+            "from": 1,
+            "to": 3,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 1
+            }
+        },
+        {
+            "id": 12,
+            "from": 8,
+            "to": 16,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 13,
+            "from": 14,
+            "to": 16,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 14,
+            "from": 14,
+            "to": 19,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 15,
+            "from": 85,
+            "to": 86,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 27,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 16,
+            "from": 42,
+            "to": 44,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 17,
+            "from": 5,
+            "to": 14,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 18,
+            "from": 54,
+            "to": 58,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 19,
+            "from": 87,
+            "to": 94,
+            "label": "INTRA_CAUSE",
+            "color": {
+                "color": "#90CC74",
+                "highlight": "#90CC74",
+                "hover": "#90CC74"
+            },
+            "properties": {
+                "first_sentence_index": 31,
+                "second_sentence_index": 31
+            }
+        },
+        {
+            "id": 20,
+            "from": 8,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 21,
+            "from": 3,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 22,
+            "from": 14,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 23,
+            "from": 42,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 24,
+            "from": 28,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 25,
+            "from": 5,
+            "to": 30,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 26,
+            "from": 3,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 27,
+            "from": 16,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 28,
+            "from": 62,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 25,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 29,
+            "from": 16,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 30,
+            "from": 19,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 31,
+            "from": 16,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 32,
+            "from": 79,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 26,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 33,
+            "from": 5,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 34,
+            "from": 16,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 35,
+            "from": 14,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 36,
+            "from": 14,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 37,
+            "from": 58,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 38,
+            "from": 14,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 39,
+            "from": 19,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 40,
+            "from": 16,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 41,
+            "from": 54,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 42,
+            "from": 5,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 43,
+            "from": 14,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 44,
+            "from": 3,
+            "to": 19,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 45,
+            "from": 44,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 46,
+            "from": 27,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 47,
+            "from": 27,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 48,
+            "from": 5,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 49,
+            "from": 19,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 50,
+            "from": 3,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 51,
+            "from": 44,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 52,
+            "from": 3,
+            "to": 8,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 53,
+            "from": 8,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 54,
+            "from": 54,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 55,
+            "from": 5,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 56,
+            "from": 16,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 57,
+            "from": 3,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 58,
+            "from": 5,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 59,
+            "from": 14,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 60,
+            "from": 1,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 61,
+            "from": 3,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 62,
+            "from": 28,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 63,
+            "from": 14,
+            "to": 30,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 64,
+            "from": 54,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 65,
+            "from": 8,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 66,
+            "from": 19,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 67,
+            "from": 14,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 68,
+            "from": 14,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 69,
+            "from": 19,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 70,
+            "from": 54,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 71,
+            "from": 42,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 72,
+            "from": 28,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 73,
+            "from": 5,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 74,
+            "from": 58,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 75,
+            "from": 30,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 76,
+            "from": 3,
+            "to": 5,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 77,
+            "from": 16,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 78,
+            "from": 3,
+            "to": 30,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 79,
+            "from": 28,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 80,
+            "from": 28,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 81,
+            "from": 27,
+            "to": 42,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 82,
+            "from": 28,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 83,
+            "from": 1,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 84,
+            "from": 14,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 85,
+            "from": 5,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 86,
+            "from": 19,
+            "to": 22,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 87,
+            "from": 28,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 88,
+            "from": 16,
+            "to": 30,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 89,
+            "from": 54,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 90,
+            "from": 54,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 91,
+            "from": 28,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 92,
+            "from": 27,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 93,
+            "from": 14,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 94,
+            "from": 19,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 95,
+            "from": 22,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 96,
+            "from": 19,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 97,
+            "from": 19,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 98,
+            "from": 16,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 99,
+            "from": 16,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 100,
+            "from": 3,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 101,
+            "from": 27,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 102,
+            "from": 1,
+            "to": 19,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 103,
+            "from": 19,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 104,
+            "from": 5,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 105,
+            "from": 22,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 106,
+            "from": 71,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 26,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 107,
+            "from": 3,
+            "to": 22,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 108,
+            "from": 3,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 109,
+            "from": 27,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 110,
+            "from": 14,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 111,
+            "from": 1,
+            "to": 14,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 112,
+            "from": 19,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 113,
+            "from": 3,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 114,
+            "from": 16,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 115,
+            "from": 44,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 116,
+            "from": 22,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 117,
+            "from": 1,
+            "to": 27,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 118,
+            "from": 1,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 119,
+            "from": 8,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 120,
+            "from": 58,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 121,
+            "from": 3,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 122,
+            "from": 16,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 123,
+            "from": 65,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 25,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 124,
+            "from": 14,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 125,
+            "from": 58,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 126,
+            "from": 19,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 127,
+            "from": 16,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 128,
+            "from": 1,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 129,
+            "from": 19,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 130,
+            "from": 14,
+            "to": 22,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 131,
+            "from": 5,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 132,
+            "from": 1,
+            "to": 5,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 133,
+            "from": 27,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 134,
+            "from": 1,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 135,
+            "from": 5,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 136,
+            "from": 58,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 137,
+            "from": 54,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 138,
+            "from": 77,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 26,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 139,
+            "from": 3,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 140,
+            "from": 3,
+            "to": 16,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 141,
+            "from": 42,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 142,
+            "from": 27,
+            "to": 71,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 143,
+            "from": 3,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 144,
+            "from": 58,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 145,
+            "from": 28,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 146,
+            "from": 27,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 147,
+            "from": 27,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 148,
+            "from": 30,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 149,
+            "from": 16,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 150,
+            "from": 5,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 151,
+            "from": 27,
+            "to": 79,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 152,
+            "from": 22,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 153,
+            "from": 3,
+            "to": 14,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 154,
+            "from": 19,
+            "to": 30,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 155,
+            "from": 42,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 156,
+            "from": 8,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 157,
+            "from": 5,
+            "to": 65,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 158,
+            "from": 5,
+            "to": 22,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 159,
+            "from": 1,
+            "to": 16,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 160,
+            "from": 5,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 161,
+            "from": 30,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 162,
+            "from": 14,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 163,
+            "from": 1,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 164,
+            "from": 22,
+            "to": 86,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 165,
+            "from": 8,
+            "to": 54,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 166,
+            "from": 3,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 167,
+            "from": 28,
+            "to": 85,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 168,
+            "from": 28,
+            "to": 58,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 169,
+            "from": 19,
+            "to": 44,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 170,
+            "from": 16,
+            "to": 22,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 171,
+            "from": 3,
+            "to": 77,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 172,
+            "from": 8,
+            "to": 28,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 173,
+            "from": 58,
+            "to": 62,
+            "label": "INTER_CAUSE",
+            "color": {
+                "color": "#F9C757",
+                "highlight": "#F9C757",
+                "hover": "#F9C757"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 174,
+            "from": 0,
+            "to": 7,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 175,
+            "from": 0,
+            "to": 39,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 176,
+            "from": 1,
+            "to": 8,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 177,
+            "from": 1,
+            "to": 42,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 178,
+            "from": 2,
+            "to": 45,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 179,
+            "from": 2,
+            "to": 73,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 180,
+            "from": 3,
+            "to": 5,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 181,
+            "from": 3,
+            "to": 14,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 182,
+            "from": 3,
+            "to": 16,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 183,
+            "from": 3,
+            "to": 19,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 184,
+            "from": 3,
+            "to": 27,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 185,
+            "from": 3,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 186,
+            "from": 3,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 187,
+            "from": 3,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 188,
+            "from": 3,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 1,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 189,
+            "from": 5,
+            "to": 14,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 190,
+            "from": 5,
+            "to": 16,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 191,
+            "from": 5,
+            "to": 19,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 192,
+            "from": 5,
+            "to": 27,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 193,
+            "from": 5,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 194,
+            "from": 5,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 195,
+            "from": 5,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 196,
+            "from": 5,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 197,
+            "from": 7,
+            "to": 39,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 198,
+            "from": 8,
+            "to": 42,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 199,
+            "from": 12,
+            "to": 43,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 6
+            }
+        },
+        {
+            "id": 200,
+            "from": 12,
+            "to": 48,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 201,
+            "from": 12,
+            "to": 52,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 202,
+            "from": 12,
+            "to": 64,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 203,
+            "from": 12,
+            "to": 75,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 204,
+            "from": 14,
+            "to": 16,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 205,
+            "from": 14,
+            "to": 19,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 206,
+            "from": 14,
+            "to": 27,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 207,
+            "from": 14,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 208,
+            "from": 14,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 209,
+            "from": 14,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 210,
+            "from": 14,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 211,
+            "from": 15,
+            "to": 57,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 212,
+            "from": 16,
+            "to": 19,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 3
+            }
+        },
+        {
+            "id": 213,
+            "from": 16,
+            "to": 27,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 214,
+            "from": 16,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 215,
+            "from": 16,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 216,
+            "from": 16,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 217,
+            "from": 16,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 218,
+            "from": 17,
+            "to": 67,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 219,
+            "from": 18,
+            "to": 21,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 4
+            }
+        },
+        {
+            "id": 220,
+            "from": 18,
+            "to": 68,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 221,
+            "from": 18,
+            "to": 82,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 222,
+            "from": 19,
+            "to": 27,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 223,
+            "from": 19,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 224,
+            "from": 19,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 225,
+            "from": 19,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 226,
+            "from": 19,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 3,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 227,
+            "from": 21,
+            "to": 68,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 228,
+            "from": 21,
+            "to": 82,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 4,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 229,
+            "from": 27,
+            "to": 28,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 5
+            }
+        },
+        {
+            "id": 230,
+            "from": 27,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 231,
+            "from": 27,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 232,
+            "from": 27,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 233,
+            "from": 28,
+            "to": 54,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 234,
+            "from": 28,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 235,
+            "from": 28,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 5,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 236,
+            "from": 43,
+            "to": 48,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 237,
+            "from": 43,
+            "to": 52,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 238,
+            "from": 43,
+            "to": 64,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 239,
+            "from": 43,
+            "to": 75,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 240,
+            "from": 45,
+            "to": 73,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 6,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 241,
+            "from": 48,
+            "to": 52,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 242,
+            "from": 48,
+            "to": 64,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 243,
+            "from": 48,
+            "to": 75,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 244,
+            "from": 52,
+            "to": 64,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 25
+            }
+        },
+        {
+            "id": 245,
+            "from": 52,
+            "to": 75,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 246,
+            "from": 54,
+            "to": 58,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 24
+            }
+        },
+        {
+            "id": 247,
+            "from": 54,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 248,
+            "from": 58,
+            "to": 86,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 24,
+                "second_sentence_index": 27
+            }
+        },
+        {
+            "id": 249,
+            "from": 64,
+            "to": 75,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 25,
+                "second_sentence_index": 26
+            }
+        },
+        {
+            "id": 250,
+            "from": 68,
+            "to": 82,
+            "label": "COREF",
+            "color": {
+                "color": "#72BFDD",
+                "highlight": "#72BFDD",
+                "hover": "#72BFDD"
+            },
+            "properties": {
+                "first_sentence_index": 25,
+                "second_sentence_index": 27
+            }
+        }
+    ]
+}

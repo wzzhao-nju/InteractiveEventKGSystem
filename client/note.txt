@@ -1,0 +1,6 @@
+nodes:
+    id，label，group，value，shadow，title是当用户悬停在节点上时显示的标题（没搞懂）
+edges:
+    id，label，group，color可以自定义颜色，shadow
+options
+    group里可以单独设置每个组的样式，仅限nodes
